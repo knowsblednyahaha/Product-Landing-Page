@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <h2 class="line">hi</h2>
+      <label for="menu" class="show-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <input type="checkbox" id="menu">
+      <nav>
+        <ul class="menu-list">
+          <li><a href="#plan">Plan Your Trip</a></li>
+          <li><a href="#attractions">Attractions</a></li>
+          <li><a href="#testimonies">Testimonies</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <label for="menu" class="hide-btn">
+            <i class="fas fa-times"></i>
+          </label>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home-hero">
+      <div class="home-content-container">
+        <h1 class="home-title">Dare to Live the Life You've Always Wanted.</h1>
+        <p class="home-desc">Lorem Ipsum is simply dummy text of the printing and
+           typesetting industry. Lorem Ipsum has been the industry's standard dummy
+           text ever since the 1500s.</p>
+        <a href="#" class="button button-home">Join Us</a>
+      </div>
+    </section>
+
+    <section class="booking-options" id="plan">
+      <form class="booking-form" action="index.html" method="post">
+        <div class="group-book location">
+          <h5>Location</h5>
+          <input type="text" name="" value="" placeholder="Your Destination" id="loc">
+          <label for="loc">
+          <i class="fas fa-map-marker-alt"></i>
+          </label>
+        </div>
+        <div class="group-book time">
+          <h5>Time</h5>
+          <div class="input-align">
+            <input type="text" name="" value="" onfocus="(this.type='date')"
+             onblur="(this.type='text')" placeholder="Arrival" id="in">
+
+            <input type="text" name="" value="" onfocus="(this.type='date')"
+             onblur="(this.type='text')" placeholder="Departure" id="out">
+             <label for="in">
+               <i class="far fa-calendar-check"></i>
+             </label>
+          </div>
+        </div>
+        <div class="group-book guest">
+          <h5>Number of Guest</h5>
+          <select class="" name="" id="guest">
+            <option value="" disabled selected hidden>Guest</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
+          <label for="guest">
+            <i class="fas fa-portrait"></i>
+          </label>
+        </div>
+        <div class="group-book">
+            <input type="submit" name="" value="Book Now" class="submit">
+            <label for="btn">
+              <i class="fas fa-arrow-right btn1"></i>
+            </label>
+        </div>
+      </form>
+    </section>
+
+    <section class="home-features" id="attractions">
+      <div class="feature-title">
+        <h3>Feature Travel <span>Inspiration</span></h3>
+      </div>
+      <div class="group-features-container">
+        <div class="group-features">
+          <div class="features-img-1">
+            <div class="title-img">
+              <label for="">Adventure <span>Travel</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="group-features">
+          <div class="features-img-2">
+            <div class="title-img">
+              <label for="">Art and <span>Culture</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="group-features">
+          <div class="features-img-3">
+            <div class="title-img">
+              <label for="">Road <span>Trips</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="group-features">
+          <div class="features-img-4">
+            <div class="title-img">
+              <label for="">Travel Gear and <span>Tech</span></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="image-testimonies" id="testimonies">
+      <div class="text-container">
+        <div class="testimonies-title">
+            <h2>Here and Now Kazbegi<span>stepantsminda</span></h2>
+        </div>
+      </div>
+
+      <div class="item-container" href="javascript:void(0)">
+        <div class="group-items group-line" id="item1">
+          <div class="image-items">
+            <img src="img/user-picture.svg" alt="">
+          </div>
+          <div class="text-items">
+            <address class="">
+              <a href="#">User123</a>
+            </address>
+            <label>Bohol</label>
+          </div>
+        </div>
+
+        <div class="group-items group-line" id="item2">
+          <div class="image-items">
+            <img src="img/user-picture.svg" alt="">
+          </div>
+          <div class="text-items">
+            <address class="">
+              <a href="#">User123</a>
+            </address>
+            <label>Batangas</label>
+          </div>
+        </div>
+
+        <div class="group-items group-line" id="item3">
+          <div class="image-items">
+            <img src="img/user-picture.svg" alt="">
+          </div>
+          <div class="text-items">
+            <address class="">
+              <a href="#">User123</a>
+            </address>
+            <label>Siquijor</label>
+          </div>
+        </div>
+
+        <div class="group-items group-line" id="item4">
+          <div class="image-items">
+            <img src="img/user-picture.svg" alt="">
+          </div>
+          <div class="text-items">
+            <address class="">
+              <a href="#">User123</a>
+            </address>
+            <label>Cebu</label>
+          </div>
+        </div>
+
+        <div class="group-items group-line" id="item5">
+          <div class="image-items">
+            <img src="img/user-picture.svg" alt="">
+          </div>
+          <div class="text-items">
+            <address class="">
+              <a href="#">User123</a>
+            </address>
+            <label>El Nido</label>
+          </div>
+        </div>
+
+        <div class="group-items group-line" id="item6">
+          <div class="image-items">
+            <img src="img/user-picture.svg" alt="">
+          </div>
+          <div class="text-items">
+            <address class="">
+              <a href="#">User123</a>
+            </address>
+            <label>Puerto Princesa</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer id="contact">
+      <div class="unboxed-group">
+        <div class="group-footer">
+          <h4>Destination</h4>
+          <ul>
+            <li><a href="#">Bohol</a></li>
+            <li><a href="#">Batangas</a></li>
+            <li><a href="#">Siquijor</a></li>
+            <li><a href="#">Cebu</a></li>
+            <li><a href="#">El Nido</a></li>
+            <li><a href="#">Puerto Princesa</a></li>
+          </ul>
+        </div>
+        <div class="group-footer">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">T-Shirt</a></li>
+            <li><a href="#">Keychains</a></li>
+            <li><a href="#">Head Wear</a></li>
+            <li><a href="#">Sunglasses</a></li>
+            <li><a href="#">Bag</a></li>
+          </ul>
+        </div>
+        <div class="group-footer">
+          <h4>Forum</h4>
+          <ul>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="social-media-icons">
+        <label for="" class="icon-fb">
+          <i class="fab fa-facebook-f"></i>
+        </label>
+        <label for="" class="icon-yt">
+          <i class="fab fa-youtube"></i>
+        </label>
+        <label for="" class="icon-tw">
+          <i class="fab fa-twitter"></i>
+        </label>
+        <label for="" class="icon-ig">
+          <i class="fab fa-instagram"></i>
+        </label>
+      </div>
+
+      <div class="boxed-group">
+        <h3>Sign up for our weekly newsletter</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and
+           typesetting industry.</p>
+        <div class="input">
+          <input type="text" name="" value="" placeholder="Email">
+          <input type="submit" name="" value="Send">
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
